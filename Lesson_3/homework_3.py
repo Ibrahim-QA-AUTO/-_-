@@ -82,14 +82,15 @@ print(s[-2])
 print(s[len(s)-1])   # последний символ (эквивалентно s[-1])
 
 # 3. Создание срезов
-new_s = (s[0:7])
+new_s = s[:6]
 print(new_s)
-new_s2 = (s[-5:])
-print((new_s2))
-new_s3 = (s[2:8])
+new_s2 = s[-5:]
+print(new_s2)
+new_s3 = s[2:7]
 print(new_s3)
 print(s[::2])
 print(s[::-1])
+
 
 # 4. Работа с шагом в срезах
 print(s[::3])
